@@ -10,7 +10,11 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
+<<<<<<< HEAD
 import Title from "./title_request";
+=======
+import "./test.css";
+>>>>>>> a
 
 export default function App() {
   return (
@@ -224,7 +228,10 @@ export default function App() {
                 { flexDirection: "row", marginTop: -20 },
               ]}
             >
-              <TouchableOpacity style={[styles.fullbox, styles.choicebt, {}]}>
+              <TouchableOpacity
+                style={[styles.fullbox, styles.choicebt, {}]}
+                className="test"
+              >
                 <Text>기구 디자인</Text>
               </TouchableOpacity>
               <TouchableOpacity style={[styles.fullbox, styles.choicebt, {}]}>
