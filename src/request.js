@@ -10,11 +10,8 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
-<<<<<<< HEAD
 import Title from "./title_request";
-=======
 import "./test.css";
->>>>>>> a
 
 export default function App() {
   return (

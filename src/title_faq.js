@@ -17,11 +17,7 @@ export default function title() {
       <View style={styles.title}>
         <View style={[{ flex: 5 }]}>
           <ImageBackground
-<<<<<<< HEAD:src/title_faq.js
             source={require("../images/main/6.png")}
-=======
-            source={require("../images/logo.png")}
->>>>>>> a:src/title.js
             style={styles.image}
           >
             <View style={[styles.normal, { flex: 2 }]}></View>

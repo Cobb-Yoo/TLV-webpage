@@ -17,28 +17,7 @@ export default function map() {
       {/*content*/}
       <View style={styles.content}>
         <View style={[styles.normal, { flex: 1 }]}>
-          <View style={[styles.box, { flex: 1 }]}>
-            <View style={[{ flex: 2, marginTop: 50 }]}>
-              <ImageBackground
-                source={require("../images/main/map.png")}
-                style={styles.image}
-              >
-                <View style={[styles.normal, { flex: 1 }]}>
-                  <Text
-                    style={[
-                      styles.font_l,
-                      {
-                        justifyContent: "center",
-                        alignItems: "center",
-                        color: "#1a1a1a",
-                      },
-                    ]}
-                  >
-                    content_지도 API
-                  </Text>
-                </View>
-              </ImageBackground>
-            </View>
+          <View style={[{ flex: 1 }]}>
             <View style={[styles.normal, { backgroundColor: "white" }]}>
               <View style={[styles.normal, { flex: 2 }]}>
                 <Text style={[styles.font_l, { color: "#1a1a1a" }]}>
@@ -80,6 +59,12 @@ export default function map() {
               </View>
 
               <View style={[styles.normal, { flex: 1 }]}></View>
+            </View>
+            <View style={[{ flex: 2 }]}>
+              <ImageBackground
+                source={require("../images/main/map.png")}
+                style={styles.image}
+              ></ImageBackground>
             </View>
           </View>
         </View>
