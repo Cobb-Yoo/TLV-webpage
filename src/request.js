@@ -10,6 +10,7 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
+import "./test.css";
 
 export default function request() {
   return (
@@ -222,7 +223,10 @@ export default function request() {
                 { flexDirection: "row", marginTop: -20 },
               ]}
             >
-              <TouchableOpacity style={[styles.fullbox, styles.choicebt, {}]}>
+              <TouchableOpacity
+                style={[styles.fullbox, styles.choicebt, {}]}
+                className="test"
+              >
                 <Text>기구 디자인</Text>
               </TouchableOpacity>
               <TouchableOpacity style={[styles.fullbox, styles.choicebt, {}]}>

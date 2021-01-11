@@ -28,12 +28,12 @@ export default function Navigation() {
             <Link to="/" className="button">
               <Image
                 style={styles.tinyLogo}
-                source={require("../images/logo.png")}
+                source={require("../images/main/logo.png")}
               />
             </Link>
           </TouchableOpacity>
 
-          <Link to="/" className="button">
+          <Link to="/" className="button" style={{ textDecoration: "none" }}>
             <Text style={styles.font_s}>Laboratory Technician Vectrow</Text>
           </Link>
 
@@ -46,7 +46,11 @@ export default function Navigation() {
               { justifyContent: "center", alignItems: "center" },
             ]}
           >
-            <Link to="/indroduce" className="button">
+            <Link
+              to="/indroduce"
+              className="button"
+              style={{ textDecoration: "none" }}
+            >
               소개
             </Link>
           </TouchableOpacity>
@@ -56,7 +60,11 @@ export default function Navigation() {
               { justifyContent: "center", alignItems: "center" },
             ]}
           >
-            <Link to="/portfolio" className="button">
+            <Link
+              to="/portfolio"
+              className="button"
+              style={{ textDecoration: "none" }}
+            >
               포트폴리오
             </Link>
           </TouchableOpacity>
@@ -67,7 +75,11 @@ export default function Navigation() {
               { justifyContent: "center", alignItems: "center" },
             ]}
           >
-            <Link to="/request" className="button">
+            <Link
+              to="/request"
+              className="button"
+              style={{ textDecoration: "none" }}
+            >
               제작의뢰
             </Link>
           </TouchableOpacity>
@@ -78,7 +90,11 @@ export default function Navigation() {
               { justifyContent: "center", alignItems: "center" },
             ]}
           >
-            <Link to="/map" className="button">
+            <Link
+              to="/map"
+              className="button"
+              style={{ textDecoration: "none" }}
+            >
               찾아오는길
             </Link>
           </TouchableOpacity>
@@ -89,7 +105,11 @@ export default function Navigation() {
               { justifyContent: "center", alignItems: "center" },
             ]}
           >
-            <Link to="/faq" className="button">
+            <Link
+              to="/faq"
+              className="button"
+              style={{ textDecoration: "none" }}
+            >
               FAQ
             </Link>
           </TouchableOpacity>

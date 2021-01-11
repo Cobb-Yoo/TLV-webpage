@@ -16,7 +16,7 @@ export default function title() {
       <View style={styles.title}>
         <View style={[{ flex: 5 }]}>
           <ImageBackground
-            source={require("./images/main/logo.png")}
+            source={require("../images/logo.png")}
             style={styles.image}
           >
             <View style={[styles.normal, { flex: 2 }]}></View>
