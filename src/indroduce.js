@@ -8,10 +8,12 @@ import {
   Image,
   View,
 } from "react-native";
+import Title from "./title_intro";
 
 export default function indroduce() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*content*/}
       <View style={styles.content}>
         <View style={[styles.normal, { flex: 0.6 }]}>
@@ -68,7 +70,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/kim.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -117,7 +119,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/kim.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -166,7 +168,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/kim.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -217,7 +219,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/park.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -266,7 +268,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/park.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -315,7 +317,7 @@ export default function indroduce() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/park.png")}
                     style={[
                       styles.image,
                       styles.button,
@@ -376,7 +378,7 @@ export default function indroduce() {
               <View style={[{ flex: 1 }]}>
                 <View style={[{ flex: 4 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/total.png")}
                     style={styles.image}
                   >
                     <View

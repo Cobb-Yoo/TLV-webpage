@@ -8,10 +8,12 @@ import {
   Image,
   View,
 } from "react-native";
+import Title from "./title_portfolio";
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*content*/}
       <View style={(styles.content, styles.normal)}>
         <View style={[styles.normal, styles.box, {}]}>

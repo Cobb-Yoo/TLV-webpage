@@ -1,11 +1,11 @@
 .button:hover {
-  background-color: black;
-  color: white;
+  color: grey;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
 .button {
+  color: grey;
   padding-bottom: 30px;
   padding-top: 30px;
 }

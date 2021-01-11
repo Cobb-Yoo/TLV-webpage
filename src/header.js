@@ -34,7 +34,7 @@ export default function header() {
           >
             <Image
               style={styles.tinyLogo}
-              source={require("./images/main/logo.png")}
+              source={require("../images/main/logo.png")}
             />
           </TouchableOpacity>
 

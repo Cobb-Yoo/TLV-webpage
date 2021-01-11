@@ -10,10 +10,12 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
+import Title from "./title_request";
 
-export default function request() {
+export default function App() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*--------------------------------------------content----------------------------------------------*/}
       <View style={(styles.content, styles.normal)}>
         {/*개인정보입력*/}
@@ -137,7 +139,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -184,7 +186,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -284,7 +286,7 @@ export default function request() {
 
           <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
             <ImageBackground
-              source={require("../images/logo.png")}
+              source={require("../images/main/down.png")}
               style={[{ width: 50, height: 50 }]}
             ></ImageBackground>
           </View>
@@ -319,7 +321,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -372,7 +374,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -430,7 +432,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -488,7 +490,7 @@ export default function request() {
 
         <View style={[styles.normal, styles.fullbox, { flex: 0.5 }]}>
           <ImageBackground
-            source={require("../images/logo.png")}
+            source={require("../images/main/down.png")}
             style={[{ width: 50, height: 50 }]}
           ></ImageBackground>
         </View>
@@ -517,7 +519,7 @@ export default function request() {
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    height: "3500px",
+    height: "5500px",
     backgroundColor: "white",
   },
 

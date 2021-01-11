@@ -1,4 +1,5 @@
 import { StatusBar } from "expo-status-bar";
+
 import React from "react";
 import {
   TouchableOpacity,
@@ -8,10 +9,12 @@ import {
   Image,
   View,
 } from "react-native";
+import Title from "./title_portfolio";
 
 export default function portfolio() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*content*/}
       <View style={(styles.content, styles.normal)}>
         <View style={[styles.normal, styles.box]}>
@@ -27,24 +30,19 @@ export default function portfolio() {
               ]}
             >
               <TouchableOpacity style={[styles.normal, styles.button]}>
-                <Text style={[styles.font_s, { color: "white" }]}>개발</Text>
-              </TouchableOpacity>
-
-              <View style={{ flex: 0.1 }}> </View>
-              <TouchableOpacity style={[styles.normal, styles.button]}>
-                <Text style={[styles.font_s, { color: "white" }]}>제작</Text>
+                <Text style={[styles.font_s, { color: "white" }]}>H/W</Text>
               </TouchableOpacity>
 
               <View style={{ flex: 0.1 }}> </View>
 
               <TouchableOpacity style={[styles.normal, styles.button]}>
-                <Text style={[styles.font_s, { color: "white" }]}>교육</Text>
+                <Text style={[styles.font_s, { color: "white" }]}>S/W</Text>
               </TouchableOpacity>
 
               <View style={{ flex: 0.1 }}> </View>
 
               <TouchableOpacity style={[styles.normal, styles.button]}>
-                <Text style={[styles.font_s, { color: "white" }]}>인증</Text>
+                <Text style={[styles.font_s, { color: "white" }]}>시제품</Text>
               </TouchableOpacity>
             </View>
           </View>
@@ -65,7 +63,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>
@@ -89,7 +87,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>
@@ -113,7 +111,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>
@@ -143,7 +141,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>
@@ -167,7 +165,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>
@@ -191,7 +189,7 @@ export default function portfolio() {
               >
                 <View style={[styles.fullbox, { flex: 2 }]}>
                   <ImageBackground
-                    source={require("../images/logo.png")}
+                    source={require("../images/main/process_4.png")}
                     style={(styles.image, styles.button, styles.fullbox)}
                   ></ImageBackground>
                 </View>

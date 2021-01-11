@@ -8,10 +8,12 @@ import {
   Image,
   View,
 } from "react-native";
+import Title from "./title_faq";
 
 export default function faq() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*content*/}
       <View style={styles.content}>
         <View style={[styles.normal, { flex: 0.8 }]}>
@@ -151,8 +153,6 @@ export default function faq() {
             </View>
           </TouchableOpacity>
         </View>
-
-        <View style={[styles.normal, { flex: 1 }]}></View>
       </View>
     </View>
   );

@@ -8,17 +8,19 @@ import {
   Image,
   View,
 } from "react-native";
+import Title from "./title_map";
 
 export default function map() {
   return (
     <View style={styles.container}>
+      <Title />
       {/*content*/}
       <View style={styles.content}>
-        <View style={[{ flex: 1 }]}>
-          <View style={[{ flex: 1 }]}>
-            <View style={[{ flex: 1 }]}>
+        <View style={[styles.normal, { flex: 1 }]}>
+          <View style={[styles.box, { flex: 1 }]}>
+            <View style={[{ flex: 2, marginTop: 50 }]}>
               <ImageBackground
-                source={require("../images/logo.png")}
+                source={require("../images/main/map.png")}
                 style={styles.image}
               >
                 <View style={[styles.normal, { flex: 1 }]}>
@@ -38,7 +40,7 @@ export default function map() {
               </ImageBackground>
             </View>
             <View style={[styles.normal, { backgroundColor: "white" }]}>
-              <View style={[styles.normal, { flex: 3 }]}>
+              <View style={[styles.normal, { flex: 2 }]}>
                 <Text style={[styles.font_l, { color: "#1a1a1a" }]}>
                   CONTACT US
                 </Text>
@@ -89,7 +91,7 @@ export default function map() {
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    height: "1000px",
+    height: "1500px",
     backgroundColor: "white",
   },
 
